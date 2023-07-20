@@ -1,219 +1,33 @@
 {
-   "users":[
-      {
-        "id": 0,
-        "fullName": "Isabelle Davis",
-        "gender": "Women",
-        "email": "isabelledavis@example.com",
-        "isActive": true,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/1.jpg"
-    },
+  "intro": "Alimpan De",
+  "picture": "https://avatars.githubusercontent.com/u/103022851?v=4",
+  "about": "I am an experienced frontend developer with a strong focus on building applications for both mobile and web platforms. \n\nI have worked extensively with technologies such as React, Firebase, MongoDB, SQL, and have some backend experience using Node.js and ExpressJS. \n\nWhat really motivates me is the opportunity to learn new things at a rapid pace. I thrive on challenges and enjoy expanding my skillset with the latest technologies and frameworks. \n\nThroughout my development journey, I have worked on several interesting projects which include website and dashboards for college fests and a hospital. I also had the priviledge of being a part of a student-led dedevloper club.\n\nHere are the few technologies I've been working with recently:\n\nTypeScript,React Native,NextJS,Supabase",
+  "bio": [
+    "I'm a Full Stack Web and App Developer and also a freelancer looking for oppurtunities"
+  ],
+  "tagline": ["If my code works,", "I don't touch it again."],
+  "email": "de.alimpan5@gmail.com",
+  "experience": [
     {
-        "id": 1,
-        "fullName": "Olivia Hall",
-        "gender": "Men",
-        "email": "oliviahall@example.com",
-        "isActive": true,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/2.jpg"
-    },
-    {
-        "id": 2,
-        "fullName": "Henry Baker",
-        "gender": "Women",
-        "email": "henrybaker@example.com",
-        "isActive": false,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/3.jpg"
-    },
-    {
-        "id": 3,
-        "fullName": "Henry Baker",
-        "gender": "Men",
-        "email": "henrybaker@example.com",
-        "isActive": false,
-        "role": "Admin",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/4.jpg"
-    },
-    {
-        "id": 4,
-        "fullName": "Jack King",
-        "gender": "Women",
-        "email": "jackking@example.com",
-        "isActive": true,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/5.jpg"
-    },
-    {
-        "id": 5,
-        "fullName": "Taylor Jones",
-        "gender": "Women",
-        "email": "taylorjones@example.com",
-        "isActive": true,
-        "role": "Admin",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/6.jpg"
-    },
-    {
-        "id": 6,
-        "fullName": "Rachel Garcia",
-        "gender": "Women",
-        "email": "rachelgarcia@example.com",
-        "isActive": false,
-        "role": "Admin",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/7.jpg"
-    },
-    {
-        "id": 7,
-        "fullName": "Samuel Lee",
-        "gender": "Women",
-        "email": "samuellee@example.com",
-        "isActive": true,
-        "role": "Moderator",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/8.jpg"
-    },
-    {
-        "id": 8,
-        "fullName": "Quinn Johnson",
-        "gender": "Women",
-        "email": "quinnjohnson@example.com",
-        "isActive": false,
-        "role": "Moderator",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/9.jpg"
-    },
-    {
-        "id": 9,
-        "fullName": "Emily Hall",
-        "gender": "Women",
-        "email": "emilyhall@example.com",
-        "isActive": false,
-        "role": "Admin",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/10.jpg"
-    },
-    {
-        "id": 10,
-        "fullName": "Bob Wilson",
-        "gender": "Men",
-        "email": "bobwilson@example.com",
-        "isActive": false,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/11.jpg"
-    },
-    {
-        "id": 11,
-        "fullName": "Nate Scott",
-        "gender": "Men",
-        "email": "natescott@example.com",
-        "isActive": true,
-        "role": "Moderator",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/12.jpg"
-    },
-    {
-        "id": 12,
-        "fullName": "Grace Lee",
-        "gender": "Men",
-        "email": "gracelee@example.com",
-        "isActive": true,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/13.jpg"
-    },
-    {
-        "id": 13,
-        "fullName": "Quinn Garcia",
-        "gender": "Women",
-        "email": "quinngarcia@example.com",
-        "isActive": false,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/14.jpg"
-    },
-    {
-        "id": 14,
-        "fullName": "Charlie Taylor",
-        "gender": "Men",
-        "email": "charlietaylor@example.com",
-        "isActive": false,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/15.jpg"
-    },
-    {
-        "id": 15,
-        "fullName": "Henry Smith",
-        "gender": "Women",
-        "email": "henrysmith@example.com",
-        "isActive": false,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/16.jpg"
-    },
-    {
-        "id": 16,
-        "fullName": "Charlie Davis",
-        "gender": "Women",
-        "email": "charliedavis@example.com",
-        "isActive": true,
-        "role": "Moderator",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/17.jpg"
-    },
-    {
-        "id": 17,
-        "fullName": "Taylor Hall",
-        "gender": "Women",
-        "email": "taylorhall@example.com",
-        "isActive": true,
-        "role": "Moderator",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/18.jpg"
-    },
-    {
-        "id": 18,
-        "fullName": "Leo Taylor",
-        "gender": "Men",
-        "email": "leotaylor@example.com",
-        "isActive": true,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/men/19.jpg"
-    },
-    {
-        "id": 19,
-        "fullName": "Katie Davis",
-        "gender": "Women",
-        "email": "katiedavis@example.com",
-        "isActive": true,
-        "role": "User",
-        "lastLogin": "2023-05-14T07:37:54.114Z",
-        "profileImageUrl": "https://randomuser.me/api/portraits/women/20.jpg"
+      "title": "Freelancing",
+      "company": "PCMH Hospital and College, Kolkata",
+      "company_url": "https://www.pcmhhc.org.in/",
+      "duration": "January 2023 - February 2023",
+      "description": "Building College Website"
     }
-   ],
-   "comments":[
-      {
-         "id":1,
-         "body":"some comment",
-         "postId":1
-      },
-      {
-         "id":2,
-         "body":"some comment",
-         "postId":1
-      }
-   ],
-   "profile":{
-      "name":"typicode"
-   }
+  ],
+  "githubUserID": "ADLM10",
+  "repos": [
+    "regalia-2023",
+    "techtrix-2023",
+    "basic-admin-dashboard",
+    "pcmhhc_website"
+  ],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/alimpande",
+    "github": "https://github.com/ADLM10",
+    "twitter": "https://twitter.com/AlimpanDe",
+    "instagram": "https://www.instagram.com/_alimpande_"
+  },
+  "resume": "https://www.overleaf.com/read/ygqpswqxdknz"
 }
